@@ -98,17 +98,6 @@ public class Datatype {
         byte gh2 = 30;
         int result = gh1 * gh2;
 
-        // Increment
-        // ++c per increment
-        // c++ post increment
-        // --c per decrement
-        // c-- post decerement
-        int xc = 10;
-        xc++;
-        // System.out.println(++xc);
-
-        byte xxx = 127;
-
         System.out.println("End...");
 
     }
