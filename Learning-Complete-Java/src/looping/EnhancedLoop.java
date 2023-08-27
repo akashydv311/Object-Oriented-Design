@@ -1,5 +1,7 @@
 package looping;
 
+// Enhanced and For each loop are the same
+
 public class EnhancedLoop {
 
     public void example() {
