@@ -13,8 +13,8 @@ public class Array3D {
         // insetring the values
         for (int arrys2D[][] : nums) {
             for (int arr[] : arrys2D) {
-                for (int index : arr) {
-                    index = r.nextInt(10);
+                for (int i = 0; i < arr.length; i++) {
+                    arr[i] = r.nextInt(70);
                 }
             }
         }
