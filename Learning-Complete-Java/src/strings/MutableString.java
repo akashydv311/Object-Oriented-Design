@@ -56,7 +56,7 @@ public class MutableString {
 
         System.out.println(sbx.capacity());
         System.out.println(sbx.getClass());
-        System.out.pri  ntln(sbx);
+        System.out.println(sbx);
 
         System.out.println("End..");
 
