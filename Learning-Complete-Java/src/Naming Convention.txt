@@ -1,0 +1,12 @@
+
+props, variable and interfaces -> camel case 
+
+constants -> Upper Case - PI , MYDATA
+
+project name, class name -> Paskal Case
+
+exersie :-
+
+Hunam() - constructor
+showData() - method
+myName - variable   
