@@ -29,7 +29,7 @@ public class Doute {
         laptop1.price = 57000;
 
         Laptop laptop2 = new Laptop();
-        laptop2.model = "swift-3";
+        laptop2.model = "swift-5";
         laptop2.price = 5700;
 
         boolean result = laptop1.equals(laptop2);

@@ -1,7 +1,4 @@
 package objectclass;
-
-import javax.print.attribute.standard.MediaSize.Other;
-
 // By default every class is a child class of object class
 
 class Laptop {
@@ -27,11 +24,7 @@ class Laptop {
         // please refer this
 
         Laptop other = (Laptop) obj;
-        if (this.model.equals(other.model) && this.price == other.price) {
-            return true;
-        } else {
-            return false;
-        }
+        return this.model.equals(other.model) && this.price == other.price;
     }
 }
 
