@@ -22,11 +22,11 @@ public class ProtectedExample extends ExampleFileAccess {
         ex.showConfig();
 
         ExampleFileAccess protObj = new ExampleFileAccess();
-        protObj.age = 10;
-        protObj.showMsg();
-        protObj.showData();
-        protObj.showDataExample();
-        protObj.showConfig();
-        protObj.accessData();
+        // protObj.age = 10;
+        // protObj.showMsg();
+        // protObj.showData();
+        // protObj.showDataExample();
+        // protObj.showConfig();
+        // protObj.accessData();
     }
 }

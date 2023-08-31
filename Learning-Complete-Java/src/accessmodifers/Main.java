@@ -13,8 +13,8 @@ public class Main {
         // Protected example
         Mammal dog = new Mammal("Dog");
         dog.move();
-        dog.movePro();
-        dog.eat();
+        // dog.movePro();
+        // dog.eat();
 
     }
 }
