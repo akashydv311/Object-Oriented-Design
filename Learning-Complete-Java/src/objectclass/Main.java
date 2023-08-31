@@ -1,5 +1,7 @@
 package objectclass;
 
+import javax.print.attribute.standard.MediaSize.Other;
+
 // By default every class is a child class of object class
 
 class Laptop {
@@ -14,7 +16,17 @@ class Laptop {
 
     // Here i want to override the Object class equals method
     @Override
-    public boolean equals(Laptop other) {
+    public boolean equals(Object obj) {
+        // i can only able to compare == not equal
+        // if (this == other) {
+        // return true;
+        // } else {
+        // return false;
+        // }
+
+        // please refer this
+
+        Laptop other = (Laptop) obj;
         if (this.model.equals(other.model) && this.price == other.price) {
             return true;
         } else {
@@ -31,7 +43,7 @@ public class Main {
 
         Laptop laptop2 = new Laptop();
         laptop2.model = "swift-3";
-        laptop2.price = 5700;
+        laptop2.price = 57000;
 
         // boolean result = lap == newlap;
         boolean result = laptop1.equals(laptop2);
