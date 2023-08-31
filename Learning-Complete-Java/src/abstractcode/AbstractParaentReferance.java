@@ -27,7 +27,8 @@ class Suzuki extends Car {
 public class AbstractParaentReferance {
     public static void main(String[] args) {
 
-        Car mycar = new Suzuki();
+        Car mycar;
+        mycar = new Suzuki();
 
         mycar.carColor();
         mycar.engine();

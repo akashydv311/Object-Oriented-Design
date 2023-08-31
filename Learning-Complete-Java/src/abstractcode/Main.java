@@ -42,7 +42,9 @@ public class Main {
     public static void main(String[] args) {
 
         // Car abstractCar = new Car(); // We can't caret a obj
-        Maruti maruti = new Maruti();
+        Car maruti;
+        // maruti = new Car();
+        maruti = new Maruti();
 
         maruti.carColor();
         maruti.engine();
