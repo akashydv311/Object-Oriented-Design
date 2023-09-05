@@ -1,7 +1,7 @@
 package constructorexample;
 
 class Laptop {
-    private String laptopName;
+    private String laptopName="DELL";
     private double laptopPrice;
     private String processorName;
 
