@@ -1,6 +1,6 @@
 package staticexamples;
 
-class Mobile {
+class Mobile12 {
     // deciraction of static variable
     static String brandName;
     String name;
@@ -12,7 +12,7 @@ class Mobile {
         System.out.println("In static block!");
     }
 
-    public Mobile(String name, int price) {
+    public Mobile12(String name, int price) {
         this.name = name;
         this.price = price;
         System.out.println("In const!");
@@ -27,8 +27,8 @@ class Mobile {
     }
 
     // we can do this but passing object in method itself
-    public static void exampleStatic(Mobile obj) {
-        System.out.println(obj.name + " " + obj.price + " " + Mobile.brandName);
+    public static void exampleStatic(Mobile12 obj) {
+        System.out.println(obj.name + " " + obj.price + " " + Mobile12.brandName);
     }
 
     public void showData() {
@@ -40,9 +40,9 @@ class Mobile {
 public class StaticBlock {
     public static void main(String[] args) throws ClassNotFoundException {
 
-        Mobile mymob = new Mobile("Galaxy-s22", 1_20_000);
-        Mobile.staticMethods();
-        mymob.showData();
+        Mobile12 mymob12 = new Mobile12("Galaxy-s22", 1_20_000);
+        Mobile12.staticMethods();
+        mymob12.showData();
 
         /*
          * First it's loads class in class loader memory. so jvm called static blocks or
@@ -56,10 +56,10 @@ public class StaticBlock {
          */
 
         Class.forName("staticexamples.Mobile");
-        Mobile.brandName = "Sam-Sung";
-        Mobile.staticMethods();
+        Mobile12.brandName = "Sam-Sung";
+        Mobile12.staticMethods();
 
-        Mobile.exampleStatic(mymob);
+        Mobile12.exampleStatic(mymob12);
 
     }
 }

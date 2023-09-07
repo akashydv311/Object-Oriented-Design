@@ -1,6 +1,6 @@
 package inheritance;
 
-class Calculator {
+class Calculatorx {
 
     public int add(int num1, int num2) {
         return num1 + num2;
@@ -11,7 +11,7 @@ class Calculator {
     }
 }
 
-class AdvanceCalculator extends Calculator {
+class AdvanceCalculatorx extends Calculatorx {
 
     public int multi(int num1, int num2) {
         return num1 * num2;
@@ -33,7 +33,7 @@ public class SingleInheritance {
     public static void main(String[] args) {
 
         // single inheritance
-        AdvanceCalculator advcal = new AdvanceCalculator();
+        AdvanceCalculatorx advcal = new AdvanceCalculatorx();
 
         int div = advcal.div(23, 45);
         int add = advcal.add(23, 67);

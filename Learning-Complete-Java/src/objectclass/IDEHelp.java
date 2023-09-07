@@ -1,6 +1,6 @@
 package objectclass;
 
-class Laptop {
+class Laptopt {
     public String model;
     public int price;
 
@@ -21,7 +21,7 @@ class Laptop {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        Laptop other = (Laptop) obj;
+        Laptopt other = (Laptopt) obj;
         if (model == null) {
             if (other.model != null)
                 return false;
@@ -43,11 +43,11 @@ class Laptop {
 
 public class IDEHelp {
     public static void main(String[] args) {
-        Laptop laptop3 = new Laptop();
+        Laptopt laptop3 = new Laptopt();
         laptop3.model = "swift-3";
         laptop3.price = 57000;
 
-        Laptop laptop4 = new Laptop();
+        Laptopt laptop4 = new Laptopt();
         laptop4.model = "swift-3";
         laptop4.price = 57000;
 

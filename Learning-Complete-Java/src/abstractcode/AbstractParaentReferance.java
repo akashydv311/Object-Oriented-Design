@@ -1,6 +1,6 @@
 package abstractcode;
 
-abstract class Car {
+abstract class Car1 {
 
     public abstract void engine();
 
@@ -12,7 +12,7 @@ abstract class Car {
 }
 
 // concrete class
-class Suzuki extends Car {
+class Suzuki extends Car1 {
 
     public void engine() {
         System.out.println("Engine is working!");
@@ -27,7 +27,7 @@ class Suzuki extends Car {
 public class AbstractParaentReferance {
     public static void main(String[] args) {
 
-        Car mycar;
+        Car1 mycar;
         mycar = new Suzuki();
 
         mycar.carColor();

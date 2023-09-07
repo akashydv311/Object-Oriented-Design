@@ -1,6 +1,6 @@
 package abstractcode;
 
-abstract class Car {
+abstract class Carx {
 
     public abstract void engine();
 
@@ -13,7 +13,7 @@ abstract class Car {
 
 // if we are not defining all the abstrct methods in the it's child class the
 // class must be abstract
-abstract class Maruti extends Car {
+abstract class Marutix extends Carx {
 
     public void engine() {
         System.out.println("Engine is working!");
@@ -22,7 +22,7 @@ abstract class Maruti extends Car {
 }
 
 // concrete class
-class MarutiSuzuki extends Maruti {
+class MarutiSuzukix extends Marutix {
     public void drive() {
         System.out.println("Drive your car!");
     }
@@ -32,11 +32,11 @@ public class MultilevelAbstract {
     public static void main(String[] args) {
 
         // Car abstractCar = new Car(); // We can't caret a obj
-        Maruti maruti = new MarutiSuzuki();
+        Marutix marutix = new MarutiSuzukix();
 
-        maruti.carColor();
-        maruti.engine();
-        maruti.drive();
+        marutix.carColor();
+        marutix.engine();
+        marutix.drive();
 
     }
 }

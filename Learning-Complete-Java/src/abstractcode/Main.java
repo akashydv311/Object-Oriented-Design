@@ -14,7 +14,7 @@ package abstractcode;
  * in this code Car is a abstract class and Maruti is a concrete class
  */
 
-abstract class Car {
+abstract class Car12 {
 
     public abstract void engine();
 
@@ -26,7 +26,7 @@ abstract class Car {
 }
 
 // concrete class
-class Maruti extends Car {
+class Maruti12 extends Car12 {
 
     public void engine() {
         System.out.println("Engine is working!");
@@ -42,13 +42,13 @@ public class Main {
     public static void main(String[] args) {
 
         // Car abstractCar = new Car(); // We can't caret a obj
-        Car maruti;
+        Car12 maruti12;
         // maruti = new Car();
-        maruti = new Maruti();
+        maruti12 = new Maruti12();
 
-        maruti.carColor();
-        maruti.engine();
-        maruti.drive();
+        maruti12.carColor();
+        maruti12.engine();
+        maruti12.drive();
 
     }
 }

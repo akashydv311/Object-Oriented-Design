@@ -1,7 +1,7 @@
 package objectclass;
 // By default every class is a child class of object class
 
-class Laptop {
+class Laptopz {
     public String model;
     public int price;
 
@@ -23,18 +23,18 @@ class Laptop {
 
         // please refer this
 
-        Laptop other = (Laptop) obj;
+        Laptopz other = (Laptopz) obj;
         return this.model.equals(other.model) && this.price == other.price;
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        Laptop laptop1 = new Laptop();
+        Laptopz laptop1 = new Laptopz();
         laptop1.model = "swift-3";
         laptop1.price = 57000;
 
-        Laptop laptop2 = new Laptop();
+        Laptopz laptop2 = new Laptopz();
         laptop2.model = "swift-3";
         laptop2.price = 57000;
 

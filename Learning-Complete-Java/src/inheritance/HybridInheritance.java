@@ -1,10 +1,10 @@
 package inheritance;
 
-interface Shape {
+interface Shapex {
     void draw();
 }
 
-class Circle implements Shape {
+class Circlex implements Shapex {
     @Override
     public void draw() {
         System.out.println("Drawing a circle");
