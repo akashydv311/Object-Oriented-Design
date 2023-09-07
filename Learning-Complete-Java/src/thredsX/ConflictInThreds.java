@@ -9,7 +9,7 @@ class Counter {
 }
 
 public class ConflictInThreds {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         Counter c1 = new Counter();
 
@@ -40,6 +40,10 @@ public class ConflictInThreds {
         t11.start();
         t12.start();
         t13.start();
+
+        t11.join();
+        t12.join();
+        t13.join();
 
         System.out.println(c1.count);
     }
