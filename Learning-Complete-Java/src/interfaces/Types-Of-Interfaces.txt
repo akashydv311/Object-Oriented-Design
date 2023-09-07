@@ -1,0 +1,8 @@
+
+We havve 3 types of interfaces
+
+1- Normal interface : it have any number of methods 
+
+2- Functional/SAM interface : it has to have only one method
+
+3- Marker interface : It has not any method ( when we want to serilaised or de-serilaised Objects   then it is used)
