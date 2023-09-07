@@ -1,0 +1,31 @@
+
+There are two types of errors
+
+* Compile Time error
+* Runtime error
+* Logical error
+
+Runtime Errors (Exceptions):- Evertthing is working properly but suddenly jvm stop execution by saying runtime error 
+
+Handling Exceptions - 
+
+try{
+
+}catch (Exception e){
+
+}finally{
+
+}
+
+*****************************
+
+                        Object
+                          |
+                        Throwable
+                           |
+                Error                       Exception
+                 |                              |
+    Thread Ded        IO Error          Runtime Exception(Unchecked)      SQl Exception(Checked)   IO Exception(Checked)
+                                                |-Arthimatic
+                                                |-ArrayIndexOutofBoundsException
+                                                |-NullPointerException
