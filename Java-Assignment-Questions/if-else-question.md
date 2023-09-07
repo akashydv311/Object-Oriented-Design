@@ -1,5 +1,5 @@
 
-#### Questions Part-1
+### Questions Part-1
 1. Write a Java program that checks if a given number is even or odd.
 2. Write a program to find the maximum between two numbers.
 3. Write a Java program that checks if a given character is a vowel or a consonant.
@@ -12,7 +12,7 @@
    (A triangle is valid if sum of its two sides is greater than the third side.{a + b <= c || a + c <= b || b + c <= a}return false)
 9. program to check whether a number is divisible by 7 or not.
 
-#### Questions Part-2
+### Questions Part-2
 1. Write a program to check if a given year is a leap year.
 2. Write a Java program that finds the largest among three numbers.
 3. Write a program to calculate the grade based on a given percentage.
