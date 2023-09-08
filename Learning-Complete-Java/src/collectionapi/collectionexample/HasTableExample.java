@@ -4,6 +4,10 @@ import java.util.Hashtable;
 import java.util.Map;
 import java.util.Scanner;
 
+/*
+ * HasMap and HasTable are same but HasTable is syncrosyzed 
+ * means when we work with threds then use HasTable 
+ */
 public class HasTableExample {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
