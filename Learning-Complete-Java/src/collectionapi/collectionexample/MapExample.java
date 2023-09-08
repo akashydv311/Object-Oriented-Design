@@ -3,6 +3,9 @@ package collectionapi.collectionexample;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * When we are not working with threds then we can use HasMap
+ */
 public class MapExample {
     public static void main(String[] args) {
 
