@@ -21,7 +21,6 @@ public class ProtectedExample extends ExampleFileAccess {
         ex.accessData();
         ex.showConfig();
 
-        ExampleFileAccess protObj = new ExampleFileAccess();
         // protObj.age = 10;
         // protObj.showMsg();
         // protObj.showData();
