@@ -1,0 +1,10 @@
+
+
+Is-a Relationship (Inheritance)
+
+
+Has-a Relationship (Composition)
+    -> Aggregation Relationship
+
+
+Uses-a Relationship (Association)   
