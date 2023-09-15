@@ -72,5 +72,7 @@ public class Abstraction {
                         "Compney Type -> " + t2.getCompneyType() + "\n" +
                         "Employee ID -> " + t2.getEmpNo() + "\n" +
                         "Employee Salary -> " + t2.getSalary());
+
+        System.out.println("Thank You!");
     }
 }
