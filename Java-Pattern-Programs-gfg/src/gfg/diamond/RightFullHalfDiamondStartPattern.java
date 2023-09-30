@@ -9,6 +9,7 @@ package gfg.diamond;
 // *** 
 // ** 
 // *
+
 public class RightFullHalfDiamondStartPattern {
     public static void main(String[] args) {
         int n = 6;

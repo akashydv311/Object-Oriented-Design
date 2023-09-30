@@ -12,6 +12,7 @@ package gfg.diamond;
 // ***      ***
 // **        **
 // *          *
+
 public class ButterflyStartPattern {
     public static void main(String[] args) {
         int n = 6;

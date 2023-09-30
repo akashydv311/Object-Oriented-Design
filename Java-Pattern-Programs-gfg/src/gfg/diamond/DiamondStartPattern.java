@@ -11,6 +11,7 @@ package gfg.diamond;
 //    *****
 //     ***
 //      *
+
 public class DiamondStartPattern {
     public static void main(String[] args) {
         int n = 6;
