@@ -6,6 +6,7 @@ package gfg.rombus;
 //   ******
 //  ******
 // ******
+
 public class RhombusPattern {
     public static void main(String[] args) {
         int n = 6;
