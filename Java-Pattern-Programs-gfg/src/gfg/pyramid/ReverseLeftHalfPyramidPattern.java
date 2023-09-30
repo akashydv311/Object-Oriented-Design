@@ -6,6 +6,7 @@ package gfg.pyramid;
 //    ***
 //     **
 //      *
+
 public class ReverseLeftHalfPyramidPattern {
     public static void main(String[] args) {
         int n = 6;

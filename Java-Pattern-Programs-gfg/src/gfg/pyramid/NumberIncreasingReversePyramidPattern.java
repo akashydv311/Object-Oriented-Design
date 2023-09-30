@@ -6,7 +6,6 @@ package gfg.pyramid;
 // 1 2 3 
 // 1 2 
 // 1 
-
 public class NumberIncreasingReversePyramidPattern {
     public static void main(String[] args) {
         int n = 6;
