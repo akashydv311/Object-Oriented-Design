@@ -6,6 +6,7 @@ package gfg.triangle;
 //    4 5 6 
 //     5 6 
 //      6 
+
 public class ReverseNumberTrianglePattern {
     public static void main(String[] args) {
         int n = 6;

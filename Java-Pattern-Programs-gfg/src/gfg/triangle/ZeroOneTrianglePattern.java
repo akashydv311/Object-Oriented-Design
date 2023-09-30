@@ -6,6 +6,7 @@ package gfg.triangle;
 // 0 1 0 1 
 // 1 0 1 0 1 
 // 0 1 0 1 0 1
+
 public class ZeroOneTrianglePattern {
     public static void main(String[] args) {
         int n = 6;
