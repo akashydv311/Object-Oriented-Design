@@ -233,13 +233,48 @@
     * *
      *
 
-
 24. Hollow Diamond Pyramid
 
+     *
+    * *
+   *   *
+  *     *
+ *       *
+*         *
+ *       *
+  *     *
+   *   *
+    * *
+     *
+
 25. Hollow Hourglass Pattern
+
+* * * * * * 
+ *       * 
+  *     * 
+   *   * 
+    * * 
+     * 
+    * * 
+   *   * 
+  *     * 
+ *       * 
+* * * * * * 
 
 26. Pascal’s Triangle
 
 27. Right Pascal’s Triangle
 
 28. K Pattern
+
+******
+*****
+****
+***
+**
+*
+**
+***
+****
+*****
+******
