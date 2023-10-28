@@ -1,10 +1,9 @@
 
-
 Is-a Relationship (Inheritance)
-
 
 Has-a Relationship (Composition)
     -> Aggregation Relationship
 
-
 Uses-a Relationship (Association)   
+
+conclusion: in general, loose coupling and high cohesion are considered best practices in software development
