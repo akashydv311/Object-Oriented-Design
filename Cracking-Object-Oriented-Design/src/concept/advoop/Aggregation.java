@@ -1,6 +1,11 @@
 package concept.advoop;
 
 // Aggregation -> HAS A Relaction
+
+/*
+ In Java, "aggregation" is a term used to describe a relationship between two classes where one class contains a reference to another class as one of its members. This is a form of association in object-oriented programming where one class has a "has-a" relationship with another class.
+ */
+
 class Bat {
     private int price;
 
