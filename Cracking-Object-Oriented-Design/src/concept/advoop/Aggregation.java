@@ -68,7 +68,7 @@ class CricketKit {
 
 }
 
-public class Aggregation01 {
+public class Aggregation {
     public static void main(String[] args) {
 
         Ball bal = new Ball(400);

@@ -1,6 +1,6 @@
 package concept.advoop;
 
-public class Assiosation01 {
+public class Association {
     public static void main(String[] args) {
 
     }
