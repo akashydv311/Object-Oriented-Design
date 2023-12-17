@@ -1,0 +1,20 @@
+
+protected:
+
+in same package
+    attribute - modification , accessing - allowed
+    methods -  accessing - allowed
+
+in diffrent package ( if extanded class)
+    attribute - modification , accessing - allowed
+    methods -  accessing - allowed
+
+in diffrent package (if extanded class )
+
+    using object of diffrent class
+        attribute - modification , accessing - allowed
+        methods -  accessing - allowed
+    
+    using object of same class
+        attribute - modification , accessing - NOT allowed
+        methods -  accessing - NOT allowed
