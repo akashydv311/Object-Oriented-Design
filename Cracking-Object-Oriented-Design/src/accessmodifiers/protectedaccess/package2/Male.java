@@ -5,7 +5,7 @@ import accessmodifiers.protectedaccess.package1.*;
 public class Male extends Human {
 
     public void maleDemo() {
-        // simpley taking values
+        // simply taking values
         String humanName = this.humanName; //
         System.out.println(humanName);
 
