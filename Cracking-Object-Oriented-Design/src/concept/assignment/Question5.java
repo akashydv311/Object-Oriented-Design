@@ -2,7 +2,12 @@ package concept.assignment;
 
 // cohishion?   
 /*
- * Cohesion is a fundamental concept in software engineering and design that describes how closely the responsibilities and tasks of the elements within a module or component are related to each other. It is a measure of the strength of the relationship between the members (functions, methods, or variables) of a module or class. High cohesion is generally considered a desirable characteristic in software design because it leads to more maintainable, understandable, and reusable code.
+ * Cohesion is a fundamental concept in software engineering and design 
+ * that describes how closely the responsibilities and tasks of the elements within a module 
+ * or component are related to each other. It is a measure of the strength of the relationship 
+ * between the members (functions, methods, or variables) of a module or class. 
+ * High cohesion is generally considered a desirable characteristic in software design because 
+ * it leads to more maintainable, understandable, and reusable code.
  */
 
 class CohesionExample {
