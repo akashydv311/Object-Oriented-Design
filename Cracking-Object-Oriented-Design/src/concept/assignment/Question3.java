@@ -20,8 +20,11 @@ class Child extends Parent {
 public class Question3 {
     public static void main(String[] args) {
 
+        Parent.staticMethod();
+        Child.staticMethod();
+
         Parent p = new Child();
-        p.staticMethod(); // Calls Parent's staticMethod, not Child's, because it's determined at compile
-                          // time.
+        Parent.staticMethod(); // Calls Parent's staticMethod, not Child's, because it's determined at compile
+        // time.
     }
 }
